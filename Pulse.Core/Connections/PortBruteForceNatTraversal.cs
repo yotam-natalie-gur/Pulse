@@ -40,6 +40,6 @@ public class PortBruteForceNatTraversal : IConnectionEstablishmentStrategy
             await destination.SendMessageAsync(client, destinationPort, message: "Yayy");
         }
         // TODO - should listen to the UdpPort and wait for an answer from the other person
-        return null;
+        return null;testtt
     }
 }
